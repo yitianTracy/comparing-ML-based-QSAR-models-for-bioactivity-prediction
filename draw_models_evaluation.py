@@ -1,6 +1,8 @@
+## This code is to draw the graph in the discussion part to comparing the 3 models' performances on the 4 evaluation matrics.
+
 import pandas as pd
 import matplotlib.pyplot as plt
-
+# extract the evaluation values of 3 models
 data = {
     'Metric': ['MSE', 'RMSE', 'R2', 'MAE'],
     'Ridge Regression': [0.428, 0.654, 0.532, 0.506],
@@ -9,7 +11,7 @@ data = {
 }
 
 df = pd.DataFrame(data)
-
+# draw the graph
 fig, ax = plt.subplots(figsize=(10, 6))
 bars = df.plot(kind='bar', ax=ax, color=['skyblue', 'lightgreen', 'salmon'])
 ax.set_title('Model Comparison on Different Metrics')
