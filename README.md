@@ -1,6 +1,6 @@
 # Comparing ML-based QSAR models for bioactivity prediction
 - Group 15 Machine Learning Project 
-
+ 
 ***The "Result" folder stores the figures we made for each model, which are also included in the poster and final essay.***
 
 This project includes three regression model for Bioactivtity prediction based on molecular structure.The data used to perform training is obatined by using the ChEMBL API. Code for executing data collection, pre processing, model training, and model analysis are places in individual .ipynb files. Please refer to the file with corresponidng names if you are only interest in part of the complete pipeline.
